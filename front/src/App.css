@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  /* text-align: center; */
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Add{
+  z-index: 2202650000 !important;
+  text-align: center !important;
+  margin-top: 30% !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: hsla(0, 0%, 96%, 0.863);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input {
+  display: none;
+}
+/* .img{
+  height: 180px !important
+} */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+   justify-content: center;
+}
+/* .cards{
+  height: 450px;
+} */
+.sta{
+  color: yellow;
+}
+.star{
+  color: gray;
+  
+}
+.AddBtn{
+  position: fixed;
+  top: 90%;
+  left: 90%;
+/* background-color: aqua !important; */
+}
+.Nav.Link{
+  color: red !important;
+}
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000000 !important;
+}
+.moviedescreption{
+  margin-top: 15%;
+}
+.result{
+  text-align: center !important;
+  margin-top: 10% !important;
+  color: rgb(243, 240, 240);
+}
+a{
+  text-decoration: none !important;
+}
+.serch{
+  text-align: center !important;
+  margin-top: 10% !important;
+  color: rgb(243, 240, 240);
+}
+.moviename{
+  color: aliceblue;
+  text-align: center;
+}
+.movieimg{
+  
+  width: 300px;
+  height: 400px;
+}
+.moviedescreption{
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40%;
+}
+.d-flexx{
+  margin-top: 5%;
+  /* margin-inline-end: 5%; */
+}
+.serch{
+  margin-top: 30% !important;
+}
+.trailer{
+  justify-content: center;
+  margin-top: 5%;
+}
+.moviedescreption{
+  font-size: large;
+  color: white;
+}
+.nav-link{
+  color: white !important;
+}
